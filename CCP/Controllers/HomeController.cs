@@ -17,7 +17,8 @@ namespace CCP.Controllers
         public IActionResult Login(login login)
         {
             var body = HttpContext.Request.Body;
-            return Ok();
+            return Ok(@"inp n
+out n");
         }
         
     }
